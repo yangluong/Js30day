@@ -1,0 +1,30 @@
+/* Reset Css */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:focus {
+    outline: 0;
+}
+
+html {
+    box-sizing: border-box;
+    background: #390194;
+    font-family: 'helvetica neue';
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.words {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background: #fff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}

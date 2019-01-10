@@ -1,0 +1,79 @@
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+    background: #3c960085;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.score {
+    border: 1px solid #850064;
+    padding: 0 3rem;
+    line-height: 1;
+    border-radius: 1rem;
+}
+
+.game {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.hole {
+    flex: 1 0 33.33%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hole:after {
+    display: block;
+    content: '';
+    width: 200px;
+    height: 70px;
+    background: #29009b;
+    margin: 10px;
+    position: absolute;
+    z-index: 2;
+    bottom: -30px;
+}
+
+.mole {
+    width: 150px;
+    height: 140px;
+    background: #e69500;
+    position: absolute;
+    top: 100%;
+    transition: all 0.4s;
+    left: 20px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+
+.hole.up .mole {
+    top: 0;
+}
+
+.click {
+    display: block;
+    margin: 0 auto;
+}

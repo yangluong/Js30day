@@ -1,0 +1,28 @@
+    /* Reset Css */
+    
+    html {
+        box-sizing: border-box;
+    }
+    
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+    
+    div {
+        width: 100%;
+        padding: 100px;
+    }
+    
+    .one {
+        background: rgb(255, 220, 105);
+    }
+    
+    .two {
+        background: rgb(12, 255, 194);
+    }
+    
+    .three {
+        background: rgb(243, 5, 5);
+    }

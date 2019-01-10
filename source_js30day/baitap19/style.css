@@ -1,0 +1,42 @@
+/* Reset Css */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:focus {
+    outline: 0;
+}
+
+html {
+    box-sizing: border-box;
+    background: #390194;
+    font-family: 'helvetica neue';
+    font-size: 20px;
+    font-weight: 200;
+}
+
+body {
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.player {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 200px;
+}
+
+.strip img {
+    width: 400px;
+    overflow-x: scroll;
+    padding: 8px;
+    background: white;
+}

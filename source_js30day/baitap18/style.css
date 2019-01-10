@@ -1,0 +1,28 @@
+/* Reset Css */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:focus {
+    outline: 0;
+}
+
+html {
+    box-sizing: border-box;
+    background: #390194;
+    font-family: 'helvetica neue';
+    font-size: 20px;
+    font-weight: 200;
+}
+
+body {
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}

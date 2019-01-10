@@ -1,0 +1,52 @@
+/* Reset Css */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:focus {
+    outline: 0;
+}
+
+html {
+    box-sizing: border-box;
+    background: #ffc600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.form {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.search {
+    width: 400px;
+    margin-top: 20px;
+}
+
+.search {
+    padding: 10px;
+}
+
+.h1 {
+    background-color: #ffc600;
+}
+
+.suggestions {
+    background-color: #fff;
+    width: 400px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+ul>li {
+    padding: 10px;
+    border-bottom: 1px solid blue;
+}
+
+.population {
+    float: right;
+}

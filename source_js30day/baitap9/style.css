@@ -1,0 +1,18 @@
+/* Reset Css */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:focus {
+    outline: 0;
+}
+
+html {
+    box-sizing: border-box;
+    background: #ffc600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}

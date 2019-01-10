@@ -1,0 +1,22 @@
+html {
+	box-sizing: border-box;
+	background: #ffc600;
+	font-family: 'helvetica neue';
+	font-size: 20px;
+}
+body {
+	margin: 0;
+	text-align: center;
+	position: relative;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+.words {
+	max-width: 500px;
+	margin: 50px auto;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 5px 5px 0 rgba(0,0,0,0.1);
+	padding: 10px;
+}

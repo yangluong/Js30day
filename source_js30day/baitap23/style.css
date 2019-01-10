@@ -1,0 +1,55 @@
+/* Reset Css */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:focus {
+    outline: 0;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(135deg, hsla(225, 95%, 50%, 1) 10%, hsla(225, 95%, 50%, 0) 80%), linear-gradient(225deg, hsla(140, 90%, 50%, 1) 10%, hsla(140, 90%, 50%, 0) 80%), linear-gradient(315deg, hsla(35, 95%, 55%, 1) 100%, hsla(35, 95%, 55%, 0) 70%);
+}
+
+.voiceinator {
+    padding: 2rem;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 1rem;
+    position: relative;
+    background: white;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+.voiceinator input,
+.voiceinator button,
+.voiceinator select,
+.voiceinator textarea {
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 0;
+    font-size: 20px;
+    background: #F7F7F7;
+    outline: 0;
+}
+
+#stop,
+#speak {
+    background: rgb(25, 0, 255);
+    color: antiquewhite;
+}
